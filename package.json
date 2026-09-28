@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/audittag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Audit numeric tag values, ranges, and human-readable units.",
+  "bin": {
+    "audittag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/audittag.git"
+  },
+  "homepage": "https://theworker02.github.io/audittag/",
+  "keywords": [
+    "audit",
+    "tag",
+    "number",
+    "cli",
+    "toolkit"
+  ]
+}
